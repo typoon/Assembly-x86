@@ -1,3 +1,7 @@
+# Compile with: 
+# as -o cpuid.o cpuid.s
+# ld -o cpuid cpuid.o
+
 .section .data
 output:
     .ascii "The processor Vendor ID is 'xxxxxxxxxxxx'\n"
